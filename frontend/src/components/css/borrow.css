@@ -1,0 +1,33 @@
+.rooms{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.roomnumber{
+    width: 20%;
+    background-color: rgb(17, 61, 61);
+}
+h1{width: 100%; text-align: center;}
+.room{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.buttonsroom{
+    width: 100%;
+}
+.buttonsroom button{
+    width: 50%;
+    margin: 0;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
